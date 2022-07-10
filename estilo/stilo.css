@@ -15,9 +15,10 @@ header{
     background-color: rgb(255, 0, 0);
     
 }
-@media(min-width:320px) {
+@media(min-width:360px) {
     header a h1{
         font-size: 25px;
+        color: black;
     }
     header a p{
         font-size: 0px;
