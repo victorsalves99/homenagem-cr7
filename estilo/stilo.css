@@ -20,8 +20,11 @@ header{
         font-size: 25px;
     }
     header a p{
-        font-size: 10px;
+        font-size: 0px;
     }
+    nav a {
+        font-size: 10px;
+   }
 }
 header a h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -72,12 +75,7 @@ nav{
     padding-bottom: 10px;
     
 }
-@media(min-width:320px) {
 
-    nav a {
-         font-size: 10px;
-    }  
-}
 nav a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
