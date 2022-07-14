@@ -7,7 +7,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: aqua;
+    background-color: white;
 
 }
 header{
@@ -36,9 +36,9 @@ a{
     
 }
 main{
-    background-color: aqua;
+    background-color: white;
     min-width: 280px;
-    max-width: 720px;
+    max-width: 100%;
     margin: auto;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.249);
     padding: 20px;
@@ -46,7 +46,7 @@ main{
 }
 section{
     min-width: 280px;
-    max-width: 700px;
+    max-width: 100%;
     margin: auto;
 }
 article{
@@ -116,7 +116,7 @@ p{
     text-align: justify;
     margin: auto;
     min-width: 280px;
-    max-width: 700px;
+    max-width: 100%;
     padding: auto;
     margin: 5px 5px;
     padding: 5px;
@@ -124,7 +124,7 @@ p{
 
 img{
     display: block;
-    width: 100%;
+    max-width: 70%;
     margin: auto;
     margin-top: 20px;
     padding-bottom: 20px;
